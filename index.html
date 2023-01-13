@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div class="main-body">
+    <div class="sidebar"></div>
+    <div class="main-content">
+      <div class="header">
+        <div class="intro-box">
+          <h1>Hi, I'm Dylan Kenniff.</h1>
+          <p>I'm currently a second-year computer science student at Cornell University
+            interested in software development. I am particularly interested in front-end
+            development. When not programming, I love playing Ultimate Frisbee.
+          </p>
+          <div class="intro-buttons">
+            <!-- <button class="contact-me">Contact Me</button> -->
+            <button class="resume-btn" onclick=" window.open('resume.pdf','_blank')">View Resume</button>
+          </div>
+        </div>
+        <img class="profile-pic" src="img/profile_pic.jpeg" alt="picture of me">
+      </div>
+
+      <div class="projects">
+        <h1>Projects</h1>
+        <div class="project-box">
+          <h3>OCaml "Settler's of Cornell" Game</h3>
+          <p>Over the course of a semester, I worked in a group with two other
+            students to develop a game similar to Settlers of Catan in OCaml.
+            This project gave me valuable experience in developing an application from
+            scratch in a team, using test-driven development. Development of
+            this project included weekly team meetings with a project manager,
+            two milestone demos of our progress, and development of a codebase of
+            over 2000 lines of code.
+          </p>
+
+          <p>I was responsible for developing much of the player data and storage
+            as well as much of the information necessary for each game, such as
+            which player was active in the current turn and the the resources
+            and structures that they owned. The part of this project that I am
+            most proud of is the circular doubly-linked list module that I
+            developed myself to store the players in the game as they are added.
+            This closely mimics the circular nature of iterating through player
+            turns in any turn-based game.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar"></div>
+  </div>
+
+
+  <div class="footer">
+    <p>Dylan Kenniff 2023</p>
+  </div>
+
+</body>
+
+</html>
